@@ -1,0 +1,51 @@
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Arsenal', sans-serif;
+}
+#body {
+  width: 100%;
+  height: 100%;
+  background: #111222;
+  background-position: center center;
+}
+#header {
+  width:100%;
+  position: relative;
+  color: gold;
+  font-size: 3rem;
+  text-align: center;
+}
+#content {
+  position: relative;
+  height: 100px;
+  color: gold;
+}
+#footer {
+
+}
+#PGP {
+    text-align: justify;
+    text-align: center;
+}
+.item-left {
+    text-align: center;
+    width: 50%;   
+    overflow: hidden;  
+	padding-bottom: 15px;
+	float: left;
+}
+.item-right {
+    text-align: center;
+    width: 50%;
+    float: right;
+	padding-bottom: 15px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+hr {
+    width: 96%;
+
+}
