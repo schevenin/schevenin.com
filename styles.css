@@ -43,3 +43,13 @@ a {
     text-decoration: none;
     color: gold;
 }
+#errorPage {
+    background: #111222;
+}
+#error {
+    color: #d3d3d3;
+}
+#errorReturnHome {
+    color: gold;
+    text-decoration: none;
+}
