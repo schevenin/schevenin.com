@@ -2,6 +2,10 @@
 html, body {
     font-family: 'Arsenal';
 }
+
+#particles-js {
+    
+}
 #background {
     background: url("background.jpg") no-repeat;
     position: absolute;
