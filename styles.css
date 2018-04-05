@@ -1,6 +1,8 @@
 /* styles.css */
 html, body {
     font-family: 'Arsenal';
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #particles-js {
