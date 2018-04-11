@@ -1,43 +1,54 @@
-/* styles.css */
+/* INDEX */
 html, body {
     font-family: 'Arsenal';
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 }
-
-#particles-js {
-    
-}
+#particles-js {}
 #background {
     background: url("background.jpg") no-repeat;
     position: absolute;
+    display: block;
     width: 100%;
     height: 100%;
-    top:0px;
-    left:0px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;    
+    background-position: 50% 50%;
+    top:0px;
+    left:0px;    
 }
 #container {
     width: 100%;
     height: 100%;
     display: table;
-    text-align: center;
+    text-align: center;    
 }
 #content {
-    color: #d3d3d3;
     width: 700px;
-    height: 650px;
+    height: 600px;
     position: relative;
     display: table-cell;
     vertical-align: middle;
 }
 #logo {}
-#name {}
+#name {
+    color: #d3d3d3;
+}
 #description {}
 #links {}
 
+/* ERROR PAGE */
+#errorPage {
+    background: #111222;
+}
+#error {
+    color: #d3d3d3;
+}
+#errorReturnHome {
+    color: gold;
+    text-decoration: none;
+}
+
+/* PROPERTIES */
 .blur {
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
@@ -49,13 +60,27 @@ a {
     text-decoration: none;
     color: gold;
 }
-#errorPage {
-    background: #111222;
+
+/* OPTIMIZATIONS */
+@media screen and (max-width: 280px) {
+    #logo {
+        display: none;
+    }
 }
-#error {
-    color: #d3d3d3;
+@media screen and (max-height: 600px) {
+    #logo {
+        display: none;
+    }
 }
-#errorReturnHome {
-    color: gold;
-    text-decoration: none;
+@media screen and (max-height: 515px) {
+    #content {height: 450px}
+}
+@media screen and (max-height: 425px) {
+    #content {height: 380px}
+}
+@media screen and (max-height: 320px) {
+    #content {height: 300px}
+}
+@media screen and (max-height: 230px) {
+    #content {height: 200px}
 }
