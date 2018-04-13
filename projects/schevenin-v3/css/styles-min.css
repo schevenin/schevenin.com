@@ -1,0 +1,184 @@
+/* styles.css */
+body, html {
+  width: 100%;
+  height: 100%; }
+
+#background {
+  position: fixed;
+  z-index: -9999;
+  width: 105vw;
+  height: 105vh;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  overflow: hidden;
+  background: url("../img/keyboard-wallpaper.jpg");
+  background-repeat: repeat;
+  left: -5px;
+  top: -10px; }
+
+#header {
+  background-color: #EDEDED;
+  position: fixed;
+  width: 100vw;
+  top: 0px;
+  box-shadow: black 0px 0px 10px; }
+
+#headerName {
+  float: left;
+  display: inline-block;
+  color: #3D3D3B;
+  font-family: 'Arsenal', sans-serif;
+  margin: 5px; }
+
+#headerLinks {
+  list-style-type: none;
+  display: inline-block;
+  float: right;
+  margin: 10px; }
+
+.headerLink {
+  display: inline-block;
+  text-align: center;
+  margin: 5px; }
+
+.headerLink a {
+  color: black;
+  padding: 5px;
+  background-color: #E1E1E1;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif; }
+
+#portfolio {
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 70px; }
+
+.socialItem {
+  display: inline-block;
+  width: 100%;
+  height: inherit;
+  border-radius: 10px;
+  background-color: #EDEDED; }
+
+.socialImg {
+  display: inline-block;
+  float: left;
+  margin: 10px;
+  width: 75px;
+  height: 75px; }
+
+.socialText {
+  display: inline-block;
+  margin: 20px 10px 20px 10px;
+  font-size: 36px; }
+
+.socialText a {
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Arsenal', sans-serif; }
+
+.portfolioItem p {
+  display: inline-block;
+  margin: 20px 0px 0px 10px;
+  padding: 10px;
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif; }
+
+.youtube:hover {
+  color: #CE2126; }
+
+.steam:hover {
+  color: black; }
+
+.twitch:hover {
+  color: #66449F; }
+
+hr {
+  width: 45%; }
+
+.ad {
+  padding: 15px;
+  text-align: center; }
+
+.description {
+  display: inline-block;
+  width: 420px;
+  height: inherit;
+  background-color: #EDEDED;
+  border-radius: 15px;
+  margin: 10px;
+  margin-bottom: 10px;
+  vertical-align: top; }
+
+#social {
+  vertical-align: top;
+  display: inline-block;
+  width: 420px;
+  height: inherit;
+  text-align: center;
+  background-color: #EDEDED;
+  border-radius: 15px;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: 0px; }
+
+.profile {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 10px;
+  width: 400px;
+  height: inherit; }
+
+.descriptionContent {
+  display: inline-block;
+  width: inherit; }
+
+.description h3 {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif; }
+
+#sites {
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+  margin: 10px; }
+
+.description li {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block; }
+
+.description li a {
+  text-decoration: none;
+  color: blue;
+  font-family: 'Arsenal', sans-serif;
+  bottom: 0; }
+
+@media (max-width: 299px) {
+  #social {
+    text-align: left;
+    width: inherit; } }
+
+@media (max-width: 270px) {
+  .socialItem {
+    display: none; } }
+
+@media (max-width: 499px) {
+  .description {
+    display: none; }
+  #social {
+    width: inherit; } }
+
+/* HEADER Links Disappear & Text Center*/
+@media (max-width: 549px) {
+  #headerLinks {
+    display: none; }
+  #headerName {
+    width: 100%;
+    text-align: center; } }

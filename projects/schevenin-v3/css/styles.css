@@ -1,0 +1,219 @@
+/* styles.css */
+body,html {
+	width: 100%;
+	height: 100%;
+}
+#background {
+	background: black;
+	background-size: cover;
+	background-position: center center;
+    background-repeat: no-repeat;
+	width:100%;
+	height:105%;
+	position:fixed;
+	z-index:-9999;
+	overflow:hidden;
+	left:-5px;
+	top:-10px;
+}
+/* Header (Nav Bar) */
+#header {
+  background-color: #EDEDED;
+	background:rgba(211,211,211,0.15);
+	width:100vw;
+	top: 0px;
+	box-shadow: rgb(0, 0, 0) 0px 0px 10px;
+	position: fixed;
+}
+#headerName {
+	float: left;
+	display: inline-block;
+	color: #d3d3d3;
+	font-family: 'Arsenal', sans-serif;
+	margin: 5px;
+}
+#headerLinks {
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	margin: 10px;
+}
+.headerLink {
+	display: inline-block;
+  text-align: center;
+	margin: 5px;
+}
+.headerLink a {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+    color: #d3d3d3;
+	padding: 5px;
+    text-decoration: none;
+}
+/* Portfolio (All Content)*/
+#portfolio {
+	margin: 0px auto;
+	margin-top: 70px;
+	text-align: center;
+}
+/* Description (Left)*/
+#description {
+	background: black;
+    border: 2px solid #d3d3d3;
+	display: inline-block;
+	width: 420px;
+	border-radius: 15px;
+	margin: 10px;
+	margin-bottom: 10px;
+	height: inherit;
+	vertical-align: top;
+}
+.profile {
+	display: inline-block;
+	margin: 10px;
+	border-radius: 10px;
+	width: 400px;
+	height: inherit;
+}
+.descriptionContent {
+	display: inline-block;
+	width: inherit;
+    color: #d3d3d3;
+}
+.descriptionContent h3 {
+	width: inherit;
+	margin: 0;
+    color: #d3d3d3;
+}
+.descriptionSites {
+	list-style-type: none;
+	padding: 5px;
+	text-align: center;
+	margin: 5px;
+}
+.descriptionSites h3 {
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+.descriptionSites li {
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		display: inline-block;
+}
+.descriptionSites li a {
+	text-decoration: none;
+	color: #d3d3d3;
+	font-family: 'Arsenal', sans-serif;
+	bottom: 0;
+}
+/* Social (Right) */
+#social {
+    border: 2px solid #d3d3d3;
+	background: black;
+	vertical-align: top;
+	display: inline-block;
+	width: 420px;
+    height: inherit;
+    min-height: 610px;
+	text-align: center;
+	border-radius: 15px;
+	margin: 10px;
+	margin-bottom: 10px;
+    padding-bottom: 41px;
+}
+.socialItem {
+	display: inline-block;
+	width: 100%;
+	height: inherit;
+	border-radius: 10px;
+    color: #d3d3d3;
+}
+.socialImg {
+	display: inline-block;
+	float: left;
+	margin: 10px;
+	width: 75px;
+	height: 75px;
+}
+.socialText {
+	display: inline-block;
+	margin: 20px 10px 20px 10px;
+	font-size: 36px;
+}
+.socialText a {
+    color: #d3d3d3;
+	text-decoration: none;
+	font-family: 'Arsenal', sans-serif;
+}
+/* Social Text Hover */
+.youtube:hover {
+	color: #CE2126;
+}
+.steam:hover {
+	color: #d3d3d3;
+}
+.twitch:hover {
+	color: #66449F;
+}
+.twitter:hover {
+	color: #1AB2E8;
+}
+.reddit:hover {
+	color: #FF411F;
+}
+.snapchat:hover {
+	color: #ffcc00;
+}
+.github:hover {
+	color: #4C3832;
+}
+/* Extra */
+.ad {
+	padding: 15px;
+	text-align: center;
+}
+/* Header Links Disappear & Text Center*/
+@media (max-width: 570px) {
+	#headerLinks {
+		display:none;
+	}
+	#headerName {
+		width: 100%;
+		text-align: center;
+	}
+}
+/* Description Disappears & Social Inherits parent div width */
+@media (max-width:499px) {
+	#description {
+		display: none;
+	}
+	#social {
+		width: 80%;
+	}
+}
+/* Width of Social inherits parent div width */
+@media (max-width:350px) {
+	#social {
+		width: inherit;
+	}
+}
+/* Social Text is aligned left, against its icon */
+@media (max-width: 299px) {
+		#social {
+			text-align: left;
+		}
+}
+/* Social Icons Disappear & Social Text is centered */
+@media (max-width: 280px) {
+	.socialImg {
+		display: none;
+	}
+	.socialItem {
+		text-align: center;
+        color: inherit;
+	}
+}
