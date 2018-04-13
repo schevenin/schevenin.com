@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie ie9 no-js" lang="en"><![endif]-->
+<!--[if gt IE 9 | !IE]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>PHS</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='assets/css/vendor.css'>
+  <link rel='stylesheet' href='assets/css/theme_dark.css'> <!-- edit css file name to be `theme_light.css` or `theme_dark.css` -->
+  <link rel='stylesheet' href='assets/css/custom.css'>
+  <link rel="stylesheet" type="text/css" href="assets/css/flaticon.css">
+  <!--[if lte IE 9]><!-->
+  <script src='assets/js/vendor/html5shiv.min.js'></script>
+  <!--<![endif]-->
+</head>
+<body>
+
+  <div class="site">
+    <div class="site-loader _multi-circle-line">
+      <div class="site-loader-spinner"></div>
+    </div> <!-- .site-loader -->
+
+    <div class="site-bg">
+      <div class="site-bg-img"></div>
+      <div class="site-bg-video"></div>
+      <div class="site-bg-overlay"></div>
+      <div class="site-bg-effect layer" data-depth=".30"></div> <!-- parallax data, try edit to other number :) -->
+      <canvas class="site-bg-canvas layer" data-depth=".30"></canvas> <!-- parallax data, try edit to other number :) -->
+      <div class="site-bg-border"></div>
+    </div> <!-- .site-bg -->
+
+    <div class="site-canvas">
+      <header class="site-header">
+        <div class="container">
+          <div class="site-header-header">
+            <div class="site-header-brand">
+              <a href="/projects/files/phssoccer-v2/index.html">
+                <img class="site-header-logo" src="assets/img/site-header-logo.png" alt="Pioneer Boys Soccer">
+                <img class="site-header-logo-invert" src="assets/img/site-header-logo-invert.png" alt="">
+              </a>
+            </div>
+            <a class="primary-nav-toggle" href="#">
+              <i class="fa fa-navicon"></i>
+            </a>
+          </div>
+          <div class="site-header-main">
+            <nav class="primary-nav">
+              <div class="primary-menu-container">
+                <ul class="primary-menu">
+                  <li class="primary-menu-item is-active" data-section="#home">
+                    <a href="#" data-hover="Home"><span>Home</span></a> <!-- set `data-hover` same as the link text -->
+                  </li> <!-- add `is-active` class for the main section, set `data-section` to be the section id -->
+                  <li class="primary-menu-item" data-section="#about">
+                    <a href="#" data-hover="About"><span>About</span></a>
+                  </li>
+                  <li class="primary-menu-item" data-section="#service">
+                    <a href="#" data-hover="Support Us"><span>Support Us</span></a>
+                  </li>
+                  <li class="primary-menu-item" data-section="#contact">
+                    <a href="#" data-hover="Contact"><span>Contact</span></a>
+                  </li>
+                  <li class="primary-menu-item" data-section="#social">
+                    <a href="#"><i class="fa fa-share-alt"></i></a>
+                  </li>
+                  <li class="primary-menu-item audio-toggle">
+                    <a href="#"><i class="fa fa-volume-up"></i></a>
+                  </li> <!-- .audio-toggle -->
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header> <!-- .site-header -->
+      <main class="site-main">
+        <div id="nav" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- for `> md` screen, control with `#nav` id -->
+
+        <div id="social" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="social-menu-container">
+                        <ul class="social-menu">
+                          <li class="social-item">
+                            <a href="https://www.facebook.com/PHS-Boys-Soccer-Booster-Club-1484354868532887/" target="_blank">
+                              <i class="fa fa-facebook-square"></i>
+                              <span>Facebook</span>
+                            </a> <!-- social link -->
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- #social -->
+
+        <div id="home" class="section is-active">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <h1>
+                        PHS BOYS SOCCER
+                      </h1>
+                      <p>
+                        Welcome to the Pioneer Boys Soccer landing page.
+                        <br>
+                        Feel free to ask questions or contact us via the <span><a style="border-bottom: dashed 2px blue">Contact page</a></span>.
+                        <br>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="about" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="section-heading">
+                        <h2 class="section-title">About Us</h2>
+                        <p class="section-subtitle">PHS • Soccer • Fundraising</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="col-inner">
+                      <p><span class="first-letter">T</span>he Pioneer Boys Soccer Booster Club is a charitable, non-profit, fully recognized 501(c)(3) organization. We are a group of parents, staff and other interested parties whose mission is to enrich the Pioneer High School athletic community and the community at large by providing financial support for the Pioneer High School boys soccer program. The Booster Club was established as a support to encourage parent participation and to raise funds to enhance and expand the soccer program at Pioneer High School. The Booster Club believes strongly that parent involvement during the high school years can be a key to the success of the individual student. In addition to financial support, the Booster Club recognizes that participation in high school athletics benefits everyone, and the Booster Club promotes opportunities to build and strengthen relationships among all involved: the student body, Pioneer High School staff, parents, and the community. Money will be raised through memberships and fundraising activities. Throughout the year, the Booster Club plans to organize a dinner, concessions at athletic events, and to sell specialty products. All members of the Pioneer community are invited and encouraged to become part of the Booster Club and our activities.</p>
+                    </div>
+                  </div>
+                  <div style="padding:5px" align="right">
+                      <a class="btn btn-default hidden-xs hidden-sm" href="https://www.facebook.com/PHS-Boys-Soccer-Booster-Club-1484354868532887/" data-section="#" target="_blank">
+                        <span align="center">Facebook Page</span>
+                      </a> <!-- button link to section, edit the `data-section` to be section id -->
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="service" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="section-heading">
+                        <h2 class="section-title">Who are we?</h2>
+                        <p class="section-subtitle">PHS • Soccer • Fundraising</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div id="serviceCarousel" class="owl-carousel">
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="fa fa-cutlery"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Fundraising</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <p><strong>Dinner Dance</strong>:
+                              <br>
+                              Saturday, April 30, 2016
+                              <br>
+                              Yolo County Fairgrounds
+                              <br>
+                              John Rogers Hall
+                              <br>
+                              6:00-11:00 P.M
+                            </p>
+                          </div>
+                        </div> <!-- .iconbox -->
+
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="fa fa-paypal"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Donate</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <p>Donations can be made <br> through our PayPal <br>donation link below. <br>Donations are tax deductible.</p>
+                          </div>
+                          <div style="padding:10px">
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                              <input type="hidden" name="cmd" value="_s-xclick">
+                              <input type="hidden" name="hosted_button_id" value="S5L3JNPSY7G9J">
+                              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                          </div>
+                        </div> <!-- .iconbox -->
+
+                        <div class="service-carousel-item iconbox _center">
+                          <div class="iconbox-icon">
+                            <i class="fa fa-shopping-cart"></i>
+                          </div>
+                          <div class="iconbox-heading">
+                            <h4>Patriot Apparel</h4>
+                          </div>
+                          <div class="iconbox-content">
+                            <p>Coming Soon!</p>
+                          </div>
+                        </div> <!-- .iconbox -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- #service -->
+
+        <div id="contact" class="section">
+          <div class="section-table">
+            <div class="section-table-cell">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="col-inner">
+                      <div class="section-heading">
+                        <h2 class="section-title">Get In Touch</h2>
+                        <p class="section-subtitle">Marketing • Design • Multipurpose</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-md-5 m-t-30-sm-max">
+                    <div class="col-inner">
+                      <div class="iconbox _left">
+                        <div class="iconbox-icon">
+                          <i class="icon-tablet"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Facebook</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>
+                            <a href="https://www.facebook.com/PHS-Boys-Soccer-Booster-Club-1484354868532887/" target="_blank">PHS Boys Soccer Booster Club</a>
+                          </p>
+                        </div>
+                      </div> <!-- .iconbox -->
+
+                      <div class="iconbox _left">
+                        <div class="iconbox-icon">
+                          <i class="icon-pencil"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>Email Address</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>
+                            president@phsboyssoccer.com
+                            <br>
+                            treasurer@phsboyssoccer.com
+                            <br>
+                            contact@phsboyssoccer.com
+                          </p>
+                        </div>
+                      </div> <!-- .iconbox -->
+
+                      <div class="iconbox _left">
+                        <div class="iconbox-icon">
+                          <i class="icon-map-pin"></i>
+                        </div>
+                        <div class="iconbox-heading">
+                          <h4>School address</h4>
+                        </div>
+                        <div class="iconbox-content">
+                          <p>
+                            1400 Pioneer Avenue,
+                            <br>
+                            Woodland, CA 95776
+                          </p>
+                        </div>
+                      </div> <!-- .iconbox -->
+                    </div>
+                  </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main> <!-- .site-main -->
+    </div>
+  </div>
+
+  <script src="assets/js/vendor/jquery-1.11.3.min.js"></script>
+  <script src='assets/js/vendor/bootstrap.min.js'></script>
+  <script src='assets/js/vendor/plugin.js'></script>
+  <script src='assets/js/variable.js'></script>
+  <script src='assets/js/main.js'></script>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <!--
+  <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+  </script>
+  -->
+
+</body>
+</html>
