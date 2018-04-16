@@ -3,7 +3,6 @@ html, body {
     font-family: 'Arsenal';
     overflow: hidden;
 }
-#particles-js {}
 #background {
     background: url("background.jpg") no-repeat;
     position: absolute;
@@ -16,6 +15,7 @@ html, body {
     top:0px;
     left:0px;    
 }
+#particles-js {}
 #container {
     width: 100vw;
     height: 100vh;
@@ -60,7 +60,10 @@ a {
     text-decoration: none;
     color: gold;
 }
-
+.separator {
+    display: inline;
+    color: gold;
+}
 /* OPTIMIZATIONS */
 @media screen and (max-width: 280px) {
     #logo {
