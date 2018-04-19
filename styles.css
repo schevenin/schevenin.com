@@ -56,14 +56,15 @@ html, body {
 	-ms-filter: blur(5px);
 	filter: blur(5px);    
 }
-a {
-    text-decoration: none;
-    color: gold;
-}
 .separator {
     display: inline;
     color: gold;
 }
+a {
+    text-decoration: none;
+    color: gold;
+}
+
 /* OPTIMIZATIONS */
 @media screen and (max-width: 280px) {
     #logo {

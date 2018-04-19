@@ -1,44 +1,46 @@
-html {
-  width: 100%;
-  height: 100%;
+html {  
   font-family: 'Arsenal', sans-serif;
 }
-#body {
-  width: 100%;
-  height: 100%;
-  background: #111222;
-  background-position: center center;
+body {}
+#background {
+    background: url("../background.jpg") no-repeat;
+    position: absolute;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100vw;
+    height: 100vh;    
+    top:0px;
+    left:0px;
+    z-index: -9999;    
 }
-#header {
-  width:100%;
-  position: relative;
-  color: gold;
-  font-size: 3rem;
-  text-align: center;
-}
-#content {
-  position: relative;
-  width: 100vw;
-  height: 100vw;
-  color: gold;
-}
-#footer {
-}
-#PGP {
-    text-align: justify;
+#container {
     text-align: center;
 }
-.item {
+.item-left {    
     text-align: center;
-    width: 100%;   
-    overflow: hidden;  
 	padding-bottom: 15px;
+    float: left;
+    width: 50%;
+}
+.item-right {
+    text-align: center;
+	padding-bottom: 15px;
+    float: right;
+    width: 50%;
+}
+.title {
+    color: gold;
+}
+.blur {
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);    
 }
 a {
-  color: white;
+  color: gold;
   text-decoration: none;
-}
-hr {
-    width: 96%;
-
 }
