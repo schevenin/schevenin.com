@@ -4,7 +4,7 @@ html, body {
     overflow: hidden;
 }
 #background {
-    background: url("background.jpg") no-repeat;
+    background: url("http://schevenin.com/background.jpg") no-repeat;
     position: absolute;
     display: block;
     width: 100vw;
@@ -13,7 +13,8 @@ html, body {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     top:0px;
-    left:0px;    
+    left:0px;  
+    z-index: -9999;
 }
 #particles-js {}
 #container {
@@ -36,6 +37,38 @@ html, body {
 #description {}
 #links {}
 
+/* ABOUT & SOCCER */
+.item-left {    
+    text-align: center;
+	padding-bottom: 15px;
+    float: left;
+    width: 50%;
+}
+.item-right {
+    text-align: center;
+	padding-bottom: 15px;
+    float: right;
+    width: 50%;
+}
+.title {
+    font-size: 28px;
+}
+.title-small {
+    font-size: 24px;
+}
+.title-big {
+    font-size: 32px;    
+}
+.img {
+    width: 500px;
+}
+.img-small {
+    width: 250px;
+}
+.img-big {
+    width: 750px;
+}
+
 /* ERROR PAGE */
 #errorPage {
     background: #111222;
@@ -56,14 +89,25 @@ html, body {
 	-ms-filter: blur(5px);
 	filter: blur(5px);    
 }
+.blur-strong {
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);    
+}
 .separator {
     display: inline;
+    color: gold;
+}
+.gold {
     color: gold;
 }
 a {
     text-decoration: none;
     color: gold;
 }
+
 
 /* OPTIMIZATIONS */
 @media screen and (max-width: 280px) {
