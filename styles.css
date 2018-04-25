@@ -71,13 +71,24 @@ html, body {
 
 /* ERROR PAGE */
 #errorPage {
-    background: #111222;
+    width: 100vw;
+    height: 100vh;    
+    background: url("http://schevenin.com/background.jpg") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    vertical-align: middle;     
+    height: 600px;
+    position: relative;
+    display: table-cell;
+    z-index: -9999;     
 }
 #error {
-    color: #d3d3d3;
+    color: gold;
 }
 #errorReturnHome {
-    color: gold;
+    color: #d3d3d3;
     text-decoration: none;
 }
 
@@ -107,7 +118,6 @@ a {
     text-decoration: none;
     color: gold;
 }
-
 
 /* OPTIMIZATIONS */
 @media screen and (max-width: 280px) {
