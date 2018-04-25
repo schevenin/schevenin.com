@@ -4,7 +4,7 @@ html, body {
     overflow: hidden;
 }
 #background {
-    background: url("http://schevenin.com/background.jpg") no-repeat;
+    background: url("/background.jpg") no-repeat;
     position: absolute;
     display: block;
     width: 100vw;
@@ -37,7 +37,55 @@ html, body {
 #description {}
 #links {}
 
-/* ABOUT & SOCCER */
+/* ERROR PAGE */
+#errorPage {
+    width: 100vw;
+    height: 100vh;    
+    background: url("/background.jpg") no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    vertical-align: middle;     
+    height: 600px;
+    position: relative;
+    display: table-cell;
+    z-index: -9999;     
+}
+#error {
+    color: gold;
+}
+#errorReturnHome {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+/* ATTRIBUTES */
+.separator {
+    display: inline;
+    color: gold;
+}
+.blur-weak {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);     
+}
+.blur {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);    
+}
+.blur-strong {
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);    
+}
 .item-left {    
     text-align: center;
 	padding-bottom: 15px;
@@ -68,51 +116,8 @@ html, body {
 .img-big {
     width: 750px;
 }
-
-/* ERROR PAGE */
-#errorPage {
-    width: 100vw;
-    height: 100vh;    
-    background: url("http://schevenin.com/background.jpg") no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    text-align: center;
-    vertical-align: middle;     
-    height: 600px;
-    position: relative;
-    display: table-cell;
-    z-index: -9999;     
-}
-#error {
-    color: gold;
-}
-#errorReturnHome {
-    color: #d3d3d3;
-    text-decoration: none;
-}
-
-/* PROPERTIES */
-.blur {
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-	-ms-filter: blur(5px);
-	filter: blur(5px);    
-}
-.blur-strong {
-    -webkit-filter: blur(15px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-	-ms-filter: blur(15px);
-	filter: blur(15px);    
-}
-.separator {
-    display: inline;
-    color: gold;
-}
 .gold {
-    color: gold;
+    color: #FFDF00;
 }
 a {
     text-decoration: none;
