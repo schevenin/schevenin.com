@@ -1,12 +1,10 @@
 /* INDEX */
 html, body {
     font-family: 'Arsenal';
-    overflow: hidden;
 }
-#background {
-    background: url("/background.jpg") no-repeat;
+.background {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("/background.jpg") no-repeat center center #000;
     position: absolute;
-    display: block;
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -16,21 +14,19 @@ html, body {
     left:0px;  
     z-index: -9999;
 }
-#particles-js {}
-#container {
+.container {
     width: 100vw;
     height: 100vh;
     display: table;
     text-align: center;    
 }
-#content {
+.content {
     width: 700px;
     height: 600px;
     position: relative;
     display: table-cell;
     vertical-align: middle;
 }
-#logo {}
 #name {
     color: white;
 }
@@ -41,10 +37,6 @@ html, body {
 #errorPage {
     width: 100vw;
     height: 100vh;    
-    background: url("/background.jpg") no-repeat;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
     text-align: center;
     vertical-align: middle;     
     height: 600px;
@@ -107,14 +99,9 @@ html, body {
 .title-big {
     font-size: 32px;    
 }
-.img {
-    width: 500px;
-}
-.img-small {
-    width: 250px;
-}
-.img-big {
-    width: 750px;
+.image {
+    display: inline-block;
+    width: 70%    ;
 }
 .gold {
     color: #FFDF00;
@@ -123,27 +110,11 @@ a {
     text-decoration: none;
     color: gold;
 }
+#particles-js {}
 
 /* OPTIMIZATIONS */
-@media screen and (max-width: 280px) {
-    #logo {
-        display: none;
-    }
-}
-@media screen and (max-height: 600px) {
-    #logo {
-        display: none;
-    }
-}
-@media screen and (max-height: 515px) {
-    #content {height: 450px}
-}
-@media screen and (max-height: 425px) {
-    #content {height: 380px}
-}
-@media screen and (max-height: 320px) {
-    #content {height: 300px}
-}
-@media screen and (max-height: 230px) {
-    #content {height: 200px}
+@media screen and (max-width: 500px) {
+    #html-projects .container .item-right {float: none;width:100vw;}
+    #html-projects .container .item-left {float: none;width:100vw;}
+    #html-projects .container {text-align: center;}
 }
