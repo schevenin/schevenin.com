@@ -1,6 +1,9 @@
 /* INDEX */
 html, body {
     font-family: 'Arsenal';
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 .background {
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("/background.jpg") no-repeat center center #000;
@@ -30,8 +33,6 @@ html, body {
 #name {
     color: white;
 }
-#description {}
-#links {}
 
 /* ERROR PAGE */
 #errorPage {
@@ -53,6 +54,12 @@ html, body {
 }
 
 /* ATTRIBUTES */
+.description {
+    margin-left: 20%; 
+    margin-right: 20%;
+    padding: 0px;
+    text-align: justify;
+}
 .separator {
     display: inline;
     color: gold;
@@ -106,11 +113,18 @@ html, body {
 .gold {
     color: #FFDF00;
 }
+.white {
+    color: white;
+}
 a {
     text-decoration: none;
     color: gold;
 }
 #particles-js {}
+
+#html-about {
+    background-color: darkblue;
+}
 
 /* OPTIMIZATIONS */
 @media screen and (max-width: 500px) {
