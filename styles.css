@@ -34,29 +34,10 @@ html, body {
     color: white;
 }
 
-/* ERROR PAGE */
-#errorPage {
-    width: 100vw;
-    height: 100vh;    
-    text-align: center;
-    vertical-align: middle;     
-    height: 600px;
-    position: relative;
-    display: table-cell;
-    z-index: -9999;     
-}
-#error {
-    color: gold;
-}
-#errorReturnHome {
-    color: #d3d3d3;
-    text-decoration: none;
-}
-
 /* ATTRIBUTES */
 .description {
-    margin-left: 20%; 
-    margin-right: 20%;
+    margin-left: 10%; 
+    margin-right: 10%;
     padding: 0px;
     text-align: justify;
 }
@@ -121,9 +102,27 @@ a {
     color: gold;
 }
 #particles-js {}
-
 #html-about {
-    background-color: darkblue;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("/background.jpg") no-repeat center center #000;
+}
+
+/* ERROR PAGE */
+#errorPage {
+    width: 100vw;
+    height: 100vh;    
+    text-align: center;
+    vertical-align: middle;     
+    height: 600px;
+    position: relative;
+    display: table-cell;
+    z-index: -9999;     
+}
+#error {
+    color: gold;
+}
+#errorReturnHome {
+    color: #d3d3d3;
+    text-decoration: none;
 }
 
 /* OPTIMIZATIONS */
