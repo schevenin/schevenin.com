@@ -35,12 +35,6 @@ html, body {
 }
 
 /* ATTRIBUTES */
-.description {
-    margin-left: 10%; 
-    margin-right: 10%;
-    padding: 0px;
-    text-align: justify;
-}
 .separator {
     display: inline;
     color: gold;
@@ -130,6 +124,15 @@ a {
     text-decoration: none;
 }
 
+/* ABOUT PAGE */ 
+.about {
+    margin-left: 27%; 
+    margin-right: 27%;    
+}
+.read {
+    padding: 0px; 
+    text-align: justify;
+}
 /* OPTIMIZATIONS */
 @media screen and (max-width: 500px) {
     #html-projects .container .item-right {float: none;width:100vw;}
