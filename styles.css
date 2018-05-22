@@ -18,10 +18,12 @@ html, body {
     z-index: -9999;
 }
 .container {
-    width: 100vw;
-    height: 100vh;
-    display: table;
-    text-align: center;    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 .content {
     width: 700px;
@@ -60,17 +62,10 @@ html, body {
 	-ms-filter: blur(15px);
 	filter: blur(15px);    
 }
-.item-left {    
+.project {    
     text-align: center;
-	padding-bottom: 15px;
-    float: left;
-    width: 50%;
-}
-.item-right {
-    text-align: center;
-	padding-bottom: 15px;
-    float: right;
-    width: 50%;
+	padding-bottom: 30px;
+    width: 100vw;
 }
 .title {
     font-size: 28px;
