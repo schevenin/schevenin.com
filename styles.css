@@ -25,13 +25,6 @@ html, body {
   text-align: center;
   min-height: 100vh;
 }
-.content {
-    width: 700px;
-    height: 600px;
-    position: relative;
-    display: table-cell;
-    vertical-align: middle;
-}
 #name {
     color: white;
 }
