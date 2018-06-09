@@ -18,12 +18,7 @@ html, body {
     z-index: -9999;
 }
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
+
 }
 #name {
     color: white;
@@ -56,9 +51,8 @@ html, body {
 	filter: blur(15px);    
 }
 .project {    
-    text-align: center;
 	padding-bottom: 30px;
-    width: 100vw;
+    width: 40%;
 }
 .title {
     font-size: 28px;
@@ -114,8 +108,8 @@ a {
 
 /* ABOUT PAGE */ 
 .about {
-    margin-left: 27%; 
-    margin-right: 27%;    
+    margin-left: 20%; 
+    margin-right: 20%;    
 }
 .read {
     padding: 0px; 
