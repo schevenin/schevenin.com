@@ -18,7 +18,11 @@ html, body {
     z-index: -9999;
 }
 .container {
-
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
 }
 #name {
     color: white;
@@ -50,9 +54,8 @@ html, body {
 	-ms-filter: blur(15px);
 	filter: blur(15px);    
 }
-.project {    
-	padding-bottom: 30px;
-    width: 40%;
+.project {
+    width: 100vw;
 }
 .title {
     font-size: 28px;
