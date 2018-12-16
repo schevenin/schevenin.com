@@ -31,3 +31,6 @@ pauseButton.addEventListener("click", function() {
   }
 })
 
+function close_window() {
+    close();
+}
