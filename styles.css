@@ -6,12 +6,12 @@ html, body {
     padding: 0;
 }
 .background {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("/background.jpg") no-repeat center center #000;
-    position: absolute;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("/background.jpg") repeat-y center center #000;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: 50% 50%;
     top:0px;
     left:0px;  
@@ -81,7 +81,7 @@ html, body {
 }
 a {
     text-decoration: none;
-    color: yellow;
+    color: #FFDF00;
 }
 #particles-js {}
 #html-about {
