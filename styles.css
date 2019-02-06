@@ -23,6 +23,7 @@ html, body {
     position: relative;
     display: table-cell;
     vertical-align: middle;
+    padding: 0px;
 }
 #name {
     color: white;
@@ -109,6 +110,22 @@ a {
     text-decoration: none;
 }
 
+/* IOS APPS PAGE */
+.iosapp {
+    padding: 15px 0px 15px 0px; 
+    width: 47%; 
+    display: inline-block;    
+}
+
+.appcontainer {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px;    
+}
+
 /* ABOUT PAGE */ 
 .about {
     margin-left: 20%; 
@@ -123,4 +140,9 @@ a {
     #html-projects .container .item-right {float: none;width:100vw;}
     #html-projects .container .item-left {float: none;width:100vw;}
     #html-projects .container {text-align: center;}
+}
+
+@media screen and (max-width: 800px) {
+    #html-iosapps .iosapp {width: 100%; display: block; text-align: center;}
+    #html-iosapps .appcontainer {text-align: center;}
 }
