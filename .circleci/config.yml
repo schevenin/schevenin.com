@@ -8,5 +8,5 @@ jobs:
       - add_ssh_keys
       - run: echo '149.28.215.39 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLfscIMLYe74B0a/Gj8AkPtMztHuCmUBXzm0Wdy4RrIJjV9GJqN0wzwjmK4m6Wp65m9xRtCuwX5UwpcEgAxzF/U=' >> ~/.ssh/known_hosts
       - checkout
-      - run: rsync -va --delete ./ root@149.28.215.39:/root/test.schevenin.com/
-      - run: ssh root@149.28.215.39 'cd traefik && docker-compose stop test.schevenin.com && docker-compose up -d --build test.schevenin.com'
+      - run: rsync -va --delete ./ root@149.28.215.39:/root/schevenin.com/
+      - run: ssh root@149.28.215.39 'cd traefik && docker-compose stop schevenin.com && docker-compose up -d --build schevenin.com'
