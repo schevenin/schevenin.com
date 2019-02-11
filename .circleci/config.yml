@@ -10,5 +10,3 @@ jobs:
       - checkout
       - run: rsync -va --delete ./ root@149.28.215.39:/root/test.schevenin.com/
       - run: ssh root@149.28.215.39 'cd traefik && docker-compose stop test.schevenin.com && docker-compose up -d --build test.schevenin.com'
-      
-      s
